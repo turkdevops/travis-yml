@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby File.read('.ruby-version').chomp
 
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 group :web do
   gem 'puma', '~> 4.3.5'
